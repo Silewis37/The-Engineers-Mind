@@ -100,6 +100,6 @@ Running the API by calling the process from the plugin that I created, the proce
       f.write(data4)
       f.close()
 
-%% File: src/plugins/connections/githubAPI.py %%
-%% Ln:31-43 %%
+File: src/plugins/connections/githubAPI.py
+Ln:31-43
 
