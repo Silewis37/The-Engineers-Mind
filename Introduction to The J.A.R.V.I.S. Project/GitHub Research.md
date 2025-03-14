@@ -103,4 +103,3 @@ Running the API by calling the process from the plugin that I created, the proce
 %% File: src/plugins/connections/githubAPI.py %%
 %% Ln:31-43 %%
 
-
