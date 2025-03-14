@@ -3,7 +3,7 @@
 	1. [[#Getting Started]]
 	2. [[#Forks]]
 		1. [[#List of information]]
-	3. [[#Stars]]
+	3. [[#Program Implementation]]
 2. [[GitHub API Documentation]]
 3. [[GitHub API Endpoints]]
 4. [[How To Install The GitHub CLI]]
@@ -19,7 +19,7 @@
 1. [[#Getting Started]]
 2. [[#Forks]]
 	1. [[#List of information]]
-3. [[#Stars]]
+3. [[#Program Implementation]]
 
 #### Getting Started
 
@@ -73,6 +73,34 @@ This is the base form of the API and is what the python library is calling to. S
 With headers that has the return format and the API key. This data is what is going to allow me to pull the data and information from the GitHub API and use it as I please, and It will also return in an untouched format so that way I am able to precisely pick and choose what values and information I wanted to pull from the API's response to my request. ***(For more information on the GitHub API endpoints go here: [[GitHub API Endpoints]] or Visit this Website: "https://pygithub.readthedocs.io/en/stable/apis.html")*** This was the only true way I could get all of this information here into a truly usable format. Since there are many other uses for the GitHub API it would be much of a waste not to discover more ways that I could possibly use this API to the advantage of the J.A.R.V.I.S. Project. And possibly have him be able to update his own programming in the future and download updates from the GitHub Repository all on his own so there would only be minimal effort from the end user.
 
 
-#### Stars
+#### Program Implementation
 
-The next use case that I have for the GitHub API in the J.A.R.V.I.S. Project is the use for looking at the Stars that are on a project. This is similar to the [[#Forks]] portion of this part of the project but it is calling to a different API Endpoint.
+The next use case that I have for the GitHub API in the J.A.R.V.I.S. Project is the use for looking at the Stars that are on a project. This is similar to the [[#Forks]] portion of this part of the project but it is calling to a different API Endpoint. An Example of the headers for this request look something like this: 
+
+> Headers: {
+> 	"Accept": "application/vnd.github+json",
+> 	"Authorization": "Bearer {TOKEN}",
+> 	"X-GitHub-API-Version": "2022-11-28"
+> }
+
+Running the API by calling the process from the plugin that I created, the process that I created looks like this:
+
+
+>def RepoForks(Owner, Repo):
+  url = f"https://api.github.com/repos/{Owner}/{Repo}/forks"
+  h = {
+    "Accept": "application/vnd.github+json",
+    "Authorization": f"Bearer {GithubAPI_TOKEN}",
+    "X-GitHub-Api-Version": "2022-11-28"
+  }
+  response = requests.get(url, headers=h)
+  print(response.json())
+  with open("github-output.json", "w+") as f:
+      data4 = json.dumps(response.json(), indent=4)
+      f.write(data4)
+      f.close()
+
+%% File: src/plugins/connections/githubAPI.py %%
+%% Ln:31-43 %%
+
+
