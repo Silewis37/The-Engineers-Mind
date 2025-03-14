@@ -60,4 +60,8 @@ This will then allow me to call the GitHub API through the use of python. To go 
 
 > https://www.github.com/Api/v3
 
-This is the base form of the API and is what the python library is calling to.
+This is the base form of the API and is what the python library is calling to. Son if I wanted to call directly from the API I would have to call it using this URL that looks like this for calling all forked data for the J.A.R.V.I.S. Project GitHub Repository:
+
+> https://api.github.com/repos/Silewis37/jarvis/forks/
+
+With headers that has the return format and the API key. This data is what is going to allow me to pull the data and information from the GitHub API and use it as I please, and It will also return in an untouched format so that way I am able to precisely pick and choose what values and information I wanted to pull from the API's response to my request.
