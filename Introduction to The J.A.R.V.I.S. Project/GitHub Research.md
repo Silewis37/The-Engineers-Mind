@@ -103,5 +103,5 @@ Running the API by calling the process from the plugin that I created, the proce
 File: src/plugins/connections/githubAPI.py
 Ln:31-43
 
-This portion of the program is what allowed the J.A.R.V.I.S. Project to call out to the GitHub API and make a request for all the Fork Data on a single repository. I used it combined with the Settings Handler Plugin to make it so that the end user was able to switch between all of the data and select the owner and the repository that the J.A.R.V.I.S. Project would call out to and collect the data from.
+This portion of the program is what allowed the J.A.R.V.I.S. Project to call out to the GitHub API and make a request for all the Fork Data on a single repository. I used it combined with the Settings Handler Plugin to make it so that the end user was able to switch between all of the data and select the owner and the repository that the J.A.R.V.I.S. Project would call out to and collect the data from. ***(More on the [[Settings Handler]])*** This was how I made it easier for the End-User to edit and control what data they pulled and they would also be able to manage it from within the application and not have to deal with looking at .json files and things of that nature.
 

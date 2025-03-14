@@ -3,6 +3,7 @@
 - [ ] Work on [[How To Install The GitHub CLI]]
 - [ ] Work on [[How To Setup The GitHub CLI]]
 - [ ] Work on [[GitHub Research]]
+- [ ] Work on [[Settings Handler]]
 - [ ] Start Working on Converting All the GitHub API Documentation From GitHub to a Format within the Engineers Mind. ([[GitHub API Documentation]])
 - [ ] Start Working on the Next Section of the Written Engineers Mind (E.I. This is the Sports Research)
 - [ ] Start Working on adding Code Snippets of where the concepts in the research are truly used in my programming.
