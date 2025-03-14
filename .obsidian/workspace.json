@@ -1,0 +1,245 @@
+{
+  "main": {
+    "id": "df4e7a07656c572f",
+    "type": "split",
+    "children": [
+      {
+        "id": "63b33012ef230043",
+        "type": "tabs",
+        "dimension": 53.71900826446281,
+        "children": [
+          {
+            "id": "0fb13d6e799b87a9",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "home-tab-view",
+              "state": {},
+              "pinned": true,
+              "icon": "search",
+              "title": "Home tab"
+            }
+          }
+        ]
+      },
+      {
+        "id": "3c1c07f135113134",
+        "type": "tabs",
+        "dimension": 46.28099173553719,
+        "children": [
+          {
+            "id": "15cd786364371f48",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "865029e81f43231e",
+    "type": "split",
+    "children": [
+      {
+        "id": "05624ad455475b5d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "afbb31cdeea91fe6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "67bc1de48daec012",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "2913c733ab64f88b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "23aff08fcf3dbf44",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 266.5
+  },
+  "right": {
+    "id": "685c37fc4c0d32a7",
+    "type": "split",
+    "children": [
+      {
+        "id": "94f1b4ca9604ffa6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aed5847b95381d01",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Introduction to The J.A.R.V.I.S. Project/GitHub Research.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for GitHub Research"
+            }
+          },
+          {
+            "id": "2e1f96a53d5d3e60",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Introduction to The J.A.R.V.I.S. Project/GitHub Research.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from GitHub Research"
+            }
+          },
+          {
+            "id": "9b65c16f665e9890",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "22144304054ffb1d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Introduction to The J.A.R.V.I.S. Project/GitHub Research.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of GitHub Research"
+            }
+          },
+          {
+            "id": "6bbf6839399d0746",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "adc660461ec48a42",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 652.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "cards-view:Card view": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-extract-pdf-highlights:PDF Highlights": false,
+      "obsidian-trash-explorer:Open trash explorer": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "0fb13d6e799b87a9",
+  "lastOpenFiles": [
+    "_Clippings",
+    "Introduction to The J.A.R.V.I.S. Project/GitHub/How To Install The GitHub CLI.md",
+    "Introduction to The J.A.R.V.I.S. Project/GitHub/How To Setup The GitHub CLI.md",
+    "Introduction to The J.A.R.V.I.S. Project/GitHub/GitHub API Documentation.md",
+    "Introduction to The J.A.R.V.I.S. Project/GitHub Research.md",
+    "Introduction to The J.A.R.V.I.S. Project/_Welcome!.md",
+    "Introduction to The J.A.R.V.I.S. Project/GitHub",
+    "Introduction to The J.A.R.V.I.S. Project",
+    "_templates/To-Do List Template.md",
+    "_templates",
+    "🔍New Ideas",
+    "📃To-Do/Todays To-Do List.md",
+    "📃To-Do",
+    "🔍New Ideas/2025-03-09.md",
+    "Untitled.canvas",
+    "Introduction to The J.A.R.V.I.S. Project/Untitled.md",
+    "_Clippings/PROJECT JARVIS ~ Official Documentation & Research Document.md",
+    "Untitled.md",
+    "Welcome.md",
+    "Clippings/Importer - Obsidian Help.md"
+  ]
+}
