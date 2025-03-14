@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction to The J.A.R.V.I.S. Project/GitHub Research.md",
+                "file": "README.md.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GitHub Research"
+              "title": "README.md"
             }
           }
         ]
@@ -203,13 +203,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6bbf6839399d0746",
+  "active": "15cd786364371f48",
   "lastOpenFiles": [
+    "Introduction to The J.A.R.V.I.S. Project/GitHub Research.md",
+    "README.md.md",
     "_Clippings",
     "Introduction to The J.A.R.V.I.S. Project/GitHub/How To Install The GitHub CLI.md",
     "Introduction to The J.A.R.V.I.S. Project/GitHub/How To Setup The GitHub CLI.md",
     "Introduction to The J.A.R.V.I.S. Project/GitHub/GitHub API Documentation.md",
-    "Introduction to The J.A.R.V.I.S. Project/GitHub Research.md",
     "Introduction to The J.A.R.V.I.S. Project/_Welcome!.md",
     "Introduction to The J.A.R.V.I.S. Project/GitHub",
     "Introduction to The J.A.R.V.I.S. Project",
@@ -222,7 +223,6 @@
     "Untitled.canvas",
     "Introduction to The J.A.R.V.I.S. Project/Untitled.md",
     "_Clippings/PROJECT JARVIS ~ Official Documentation & Research Document.md",
-    "Untitled.md",
     "Welcome.md",
     "Clippings/Importer - Obsidian Help.md"
   ]
