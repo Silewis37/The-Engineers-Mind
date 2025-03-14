@@ -60,3 +60,4 @@ This will then allow me to call the GitHub API through the use of python. To go 
 
 > https://www.github.com/Api/v3
 
+This is the base form of the API and is what the python library is calling to.
