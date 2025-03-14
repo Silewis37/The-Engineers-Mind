@@ -2,7 +2,12 @@
 1. [[#GitHub API]]
 	1. [[#Getting Started]]
 	2. [[#Forks]]
+		1. [[#List of information]]
+	3. [[#Stars]]
 2. [[GitHub API Documentation]]
+3. [[GitHub API Endpoints]]
+4. [[How To Install The GitHub CLI]]
+5. [[How To Setup The GitHub CLI]]
 
 
 
@@ -13,7 +18,8 @@
 ### Table of Contents
 1. [[#Getting Started]]
 2. [[#Forks]]
-
+	1. [[#List of information]]
+3. [[#Stars]]
 
 #### Getting Started
 
@@ -64,4 +70,9 @@ This is the base form of the API and is what the python library is calling to. S
 
 > https://api.github.com/repos/Silewis37/jarvis/forks/
 
-With headers that has the return format and the API key. This data is what is going to allow me to pull the data and information from the GitHub API and use it as I please, and It will also return in an untouched format so that way I am able to precisely pick and choose what values and information I wanted to pull from the API's response to my request.
+With headers that has the return format and the API key. This data is what is going to allow me to pull the data and information from the GitHub API and use it as I please, and It will also return in an untouched format so that way I am able to precisely pick and choose what values and information I wanted to pull from the API's response to my request. ***(For more information on the GitHub API endpoints go here: [[GitHub API Endpoints]] or Visit this Website: "https://pygithub.readthedocs.io/en/stable/apis.html")*** This was the only true way I could get all of this information here into a truly usable format. Since there are many other uses for the GitHub API it would be much of a waste not to discover more ways that I could possibly use this API to the advantage of the J.A.R.V.I.S. Project. And possibly have him be able to update his own programming in the future and download updates from the GitHub Repository all on his own so there would only be minimal effort from the end user.
+
+
+#### Stars
+
+The next use case that I have for the GitHub API in the J.A.R.V.I.S. Project is the use for looking at the Stars that are on a project. This is similar to the [[#Forks]] portion of this part of the project but it is calling to a different API Endpoint.
