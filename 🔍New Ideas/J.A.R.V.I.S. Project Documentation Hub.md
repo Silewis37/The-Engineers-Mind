@@ -1,0 +1,1 @@
+This is the Hub of the documentation for the J.A.R.V.I.S. Project. Everything regarding the programming side of the J.A.R.V.I.S. Project can be found here.
