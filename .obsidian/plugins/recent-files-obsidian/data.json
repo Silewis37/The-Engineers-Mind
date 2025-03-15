@@ -9,6 +9,10 @@
       "path": "📃To-Do/Todays To-Do List.md"
     },
     {
+      "basename": "_Welcome!",
+      "path": "Introduction to The J.A.R.V.I.S. Project/_Welcome!.md"
+    },
+    {
       "basename": "Settings Handler",
       "path": "Introduction to The J.A.R.V.I.S. Project/Settings Handler/Settings Handler.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "GitHub API Endpoints",
       "path": "Introduction to The J.A.R.V.I.S. Project/GitHub/GitHub API Endpoints.md"
-    },
-    {
-      "basename": "_Welcome!",
-      "path": "Introduction to The J.A.R.V.I.S. Project/_Welcome!.md"
     },
     {
       "basename": "README",

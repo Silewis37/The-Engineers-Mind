@@ -101,7 +101,152 @@ Running the API by calling the process from the plugin that I created, the proce
       f.close()
 
 File: src/plugins/connections/githubAPI.py
-Ln:31-43
+Ln: 31-43
 
-This portion of the program is what allowed the J.A.R.V.I.S. Project to call out to the GitHub API and make a request for all the Fork Data on a single repository. I used it combined with the Settings Handler Plugin to make it so that the end user was able to switch between all of the data and select the owner and the repository that the J.A.R.V.I.S. Project would call out to and collect the data from. ***(More on the [[Settings Handler]])*** This was how I made it easier for the End-User to edit and control what data they pulled and they would also be able to manage it from within the application and not have to deal with looking at .json files and things of that nature.
+This portion of the program is what allowed the J.A.R.V.I.S. Project to call out to the GitHub API and make a request for all the Fork Data on a single repository. I used it combined with the Settings Handler Plugin to make it so that the end user was able to switch between all of the data and select the owner and the repository that the J.A.R.V.I.S. Project would call out to and collect the data from. ***(More on the [[Settings Handler]])*** This was how I made it easier for the End-User to edit and control what data they pulled and they would also be able to manage it from within the application and not have to deal with looking at .json files and things of that nature. This will also allow the user to be able to better control the data that they wish to receive and here is how.
 
+##### How The User Has Control
+
+The user in this use case will have control due to the nature of the settings plugin and the way I have it configured. The backend connections settings JSON file looks something like this: 
+
+>{
+  "Github": {
+      "Repository(s)": [
+          {
+              "Owner": "GITHUB USER",
+              "Repo": "REPOSITORY NAME"
+          },
+          {
+              "Owner": "GITHUB USER",
+              "Repo": "REPOSITORY NAME"
+          }
+      ],
+      "Forks": [
+          {
+              "Repo": "REPOSITORY NAME",
+              "Active": true
+          },
+          {
+              "Repo": "REPOSITORY NAME",
+              "Active": false
+          }
+      ],
+      "Starred": [
+          {
+              "Repo": "REPOSITORY NAME",
+              "Active": true
+          },
+          {
+              "Repo": "REPOSITORY NAME",
+              "Active": false
+          }
+      ],
+      "RepositoryCollaborators": [
+          {
+              "Repo": "REPOSITORY NAME",
+              "Active": true
+          },
+          {
+              "Repo": "REPOSITORY NAME",
+              "Active": false
+          }
+      ],
+      "Commits": [
+          {
+              "Repo": "REPOSITORY NAME",
+              "Active": true
+          },
+          {
+              "Repo": "REPOSITORY NAME",
+              "Active": false
+          }
+      ],
+      "RepositoryContributors": [
+          {
+              "Repo": "REPOSITORY NAME",
+              "Active": true
+          },
+          {
+              "Repo": "REPOSITORY NAME",
+              "Active": false
+          }
+      ],
+      "RepositoryDeployments": [
+          {
+              "Repo": "REPOSITORY NAME",
+              "Active": true
+          },
+          {
+              "Repo": "REPOSITORY NAME",
+              "Active": false
+          }
+      ],
+      "RepositoryTags": [
+          {
+              "Repo": "REPOSITORY NAME",
+              "Active": true
+          },
+          {
+              "Repo": "REPOSITORY NAME",
+              "Active": false
+          }
+      ],
+      "RepositoryIssues": [
+          {
+              "Repo": "REPOSITORY NAME",
+              "Active": true
+          },
+          {
+              "Repo": "REPOSITORY NAME",
+              "Active": false
+          }
+      ],
+      "RepositoryReleases": [
+          {
+              "Repo": "REPOSITORY NAME",
+              "Active": true
+          },
+          {
+              "Repo": "REPOSITORY NAME",
+              "Active": false
+          }
+      ],
+      "RepositoryCommitActivity": [
+          {
+              "Repo": "REPOSITORY NAME",
+              "Active": true
+          },
+          {
+              "Repo": "REPOSITORY NAME",
+              "Active": false
+          }
+      ],
+      "RepositoryTopics": [
+          {
+              "Repo": "REPOSITORY NAME",
+              "Active": true
+          },
+          {
+              "Repo": "REPOSITORY NAME",
+              "Active": false
+          }
+      ],
+      "RepositoryWatchers": [
+          {
+              "Repo": "REPOSITORY NAME",
+              "Active": true
+          },
+          {
+              "Repo": "REPOSITORY NAME",
+              "Active": false
+          }
+      ],
+      "Followers": true,
+      "UserRepositories": true
+  }
+}
+
+File: src/settings/connectionSettings.template.json
+Ln: 1-135
+
+This is what the GitHub portion of the Connection Settings JSON file looks like in some retrospect. This is what the User is changing when they change things from the interface side of the J.A.R.V.I.S. Project and all of this information is locally stored. The other information stored within this file is for database connection settings which are covered in a different section of The Engineers Mind. These settings are what allow the J.A.R.V.I.S. Project to call out to and gather data and information from the GitHub API.
