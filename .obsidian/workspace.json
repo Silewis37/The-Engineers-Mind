@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "J.A.R.V.I.S. Project Research/GitHub Research.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GitHub Research"
+              "title": "README"
             }
           }
         ]
@@ -225,8 +225,8 @@
   },
   "active": "15cd786364371f48",
   "lastOpenFiles": [
-    "📃To-Do/Todays To-Do List.md",
     "J.A.R.V.I.S. Project Research/GitHub Research.md",
+    "📃To-Do/Todays To-Do List.md",
     "J.A.R.V.I.S. Project Documentation/README.md",
     "J.A.R.V.I.S. Project Documentation",
     "README.md",
