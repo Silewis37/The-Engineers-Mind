@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "J.A.R.V.I.S. Project Research/GitHub Research.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "GitHub Research"
             }
           }
         ]
@@ -223,22 +223,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "15cd786364371f48",
+  "active": "afbb31cdeea91fe6",
   "lastOpenFiles": [
-    "Introduction to The J.A.R.V.I.S. Project/GitHub Research.md",
-    "conflict-files-obsidian-git.md",
-    "README.md",
+    "J.A.R.V.I.S. Project Documentation",
     "📃To-Do/Todays To-Do List.md",
-    "Introduction to The J.A.R.V.I.S. Project/_Welcome!.md",
-    "Introduction to The J.A.R.V.I.S. Project/Settings Handler/Settings Handler.md",
-    "Introduction to The J.A.R.V.I.S. Project/Settings Handler",
-    "Introduction to The J.A.R.V.I.S. Project/GitHub/GitHub API Documentation.md",
-    "Introduction to The J.A.R.V.I.S. Project/GitHub/GitHub API Endpoints.md",
+    "J.A.R.V.I.S. Project Research/GitHub Research.md",
+    "README.md",
+    "conflict-files-obsidian-git.md",
+    "J.A.R.V.I.S. Project Research/_Welcome!.md",
+    "J.A.R.V.I.S. Project Research/Settings Handler/Settings Handler.md",
+    "J.A.R.V.I.S. Project Research/Settings Handler",
+    "J.A.R.V.I.S. Project Research/GitHub/GitHub API Documentation.md",
+    "J.A.R.V.I.S. Project Research/GitHub/GitHub API Endpoints.md",
     "_Clippings",
-    "Introduction to The J.A.R.V.I.S. Project/GitHub/How To Install The GitHub CLI.md",
-    "Introduction to The J.A.R.V.I.S. Project/GitHub/How To Setup The GitHub CLI.md",
-    "Introduction to The J.A.R.V.I.S. Project/GitHub",
-    "Introduction to The J.A.R.V.I.S. Project",
+    "J.A.R.V.I.S. Project Research/GitHub/How To Install The GitHub CLI.md",
+    "J.A.R.V.I.S. Project Research/GitHub/How To Setup The GitHub CLI.md",
+    "J.A.R.V.I.S. Project Research/GitHub",
+    "J.A.R.V.I.S. Project Research",
     "_templates/To-Do List Template.md",
     "_templates",
     "🔍New Ideas",

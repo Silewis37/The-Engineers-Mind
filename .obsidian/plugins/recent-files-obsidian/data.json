@@ -1,32 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
       "basename": "GitHub Research",
-      "path": "Introduction to The J.A.R.V.I.S. Project/GitHub Research.md"
+      "path": "J.A.R.V.I.S. Project Research/GitHub Research.md"
     },
     {
       "basename": "Todays To-Do List",
       "path": "📃To-Do/Todays To-Do List.md"
     },
     {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
       "basename": "_Welcome!",
-      "path": "Introduction to The J.A.R.V.I.S. Project/_Welcome!.md"
+      "path": "J.A.R.V.I.S. Project Research/_Welcome!.md"
     },
     {
       "basename": "Settings Handler",
-      "path": "Introduction to The J.A.R.V.I.S. Project/Settings Handler/Settings Handler.md"
+      "path": "J.A.R.V.I.S. Project Research/Settings Handler/Settings Handler.md"
     },
     {
       "basename": "GitHub API Documentation",
-      "path": "Introduction to The J.A.R.V.I.S. Project/GitHub/GitHub API Documentation.md"
+      "path": "J.A.R.V.I.S. Project Research/GitHub/GitHub API Documentation.md"
     },
     {
       "basename": "GitHub API Endpoints",
-      "path": "Introduction to The J.A.R.V.I.S. Project/GitHub/GitHub API Endpoints.md"
+      "path": "J.A.R.V.I.S. Project Research/GitHub/GitHub API Endpoints.md"
     }
   ],
   "omittedPaths": [],
