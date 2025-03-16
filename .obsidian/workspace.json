@@ -47,12 +47,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📃To-Do/The JARVIS Project.md",
+                "file": "📃To-Do/Todays To-Do List.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The JARVIS Project"
+              "title": "Todays To-Do List"
             }
           }
         ],
@@ -238,10 +238,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8a6c9e6b00f7de14",
+  "active": "afbb31cdeea91fe6",
   "lastOpenFiles": [
+    "📃To-Do/JARVIS To-Do List.md",
     "📃To-Do/Todays To-Do List.md",
-    "📃To-Do/The JARVIS Project.md",
     "J.A.R.V.I.S. Project Research/GitHub Research.md",
     "README.md",
     "J.A.R.V.I.S. Project Documentation/README.md",

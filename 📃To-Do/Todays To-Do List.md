@@ -15,4 +15,4 @@
 	- [ ] Create the Guides on how to setup and access the NHL API.
 	- [ ] Create the Guides to the Configuration Settings that go with the program's Configuration Settings.
 	- [ ] Create the Rest of the Guides on how to navigate the NHL API Network.
-- [ ] 
+- [ ] Testing
