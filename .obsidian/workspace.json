@@ -28,8 +28,9 @@
         "type": "tabs",
         "children": [
           {
-            "id": "db001790b625bf8b",
+            "id": "8a6c9e6b00f7de14",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -37,26 +38,28 @@
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "Todays To-Do List"
             }
           },
           {
-            "id": "8a6c9e6b00f7de14",
+            "id": "256b75aa7052f1ae",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📃To-Do/Todays To-Do List.md",
+                "file": "📃To-Do/JARVIS To-Do List.md",
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "Todays To-Do List"
+              "title": "JARVIS To-Do List"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,69 +137,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "22144304054ffb1d",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Introduction to The J.A.R.V.I.S. Project/GitHub Research.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of GitHub Research"
-            }
-          },
-          {
-            "id": "aed5847b95381d01",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Introduction to The J.A.R.V.I.S. Project/GitHub Research.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for GitHub Research"
-            }
-          },
-          {
-            "id": "2e1f96a53d5d3e60",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Introduction to The J.A.R.V.I.S. Project/GitHub Research.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from GitHub Research"
-            }
-          },
-          {
-            "id": "9b65c16f665e9890",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
             "id": "6bbf6839399d0746",
             "type": "leaf",
             "state": {
@@ -217,7 +157,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -238,10 +178,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "afbb31cdeea91fe6",
+  "active": "15cd786364371f48",
   "lastOpenFiles": [
-    "📃To-Do/JARVIS To-Do List.md",
     "📃To-Do/Todays To-Do List.md",
+    "📃To-Do/JARVIS To-Do List.md",
     "J.A.R.V.I.S. Project Research/GitHub Research.md",
     "README.md",
     "J.A.R.V.I.S. Project Documentation/README.md",
