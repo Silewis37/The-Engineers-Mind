@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "API's List",
+      "path": "📃Lists/API's List.md"
+    },
+    {
       "basename": "Todays To-Do List",
-      "path": "📃To-Do/Todays To-Do List.md"
+      "path": "📃Lists/📃To-Do/Todays To-Do List.md"
+    },
+    {
+      "basename": "JARVIS To-Do List",
+      "path": "📃Lists/📃To-Do/JARVIS To-Do List.md"
     },
     {
       "basename": "GitHub Research",
       "path": "J.A.R.V.I.S. Project Research/GitHub Research.md"
-    },
-    {
-      "basename": "JARVIS To-Do List",
-      "path": "📃To-Do/JARVIS To-Do List.md"
     },
     {
       "basename": "README",
