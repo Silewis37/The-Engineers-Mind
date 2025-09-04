@@ -1,0 +1,1 @@
+INSERT INTO `api_tokens` (`ID`, `TOKEN_NAME`, `TOKEN_VALUE`) VALUES ('{`ID}`', '{`TOKEN_NAME`}', '{`TOKEN_VALUE`}');

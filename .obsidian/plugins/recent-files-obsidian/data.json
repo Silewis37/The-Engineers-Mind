@@ -1,10 +1,6 @@
 {
   "recentFiles": [
     {
-      "basename": "NHL API Documentation",
-      "path": "Github Documentation/NHL API Documentation.md"
-    },
-    {
       "basename": "API's List",
       "path": "📃Lists/API's List.md"
     },
@@ -13,12 +9,32 @@
       "path": "📃Lists/📃To-Do/Todays To-Do List.md"
     },
     {
-      "basename": "JARVIS To-Do List",
-      "path": "📃Lists/📃To-Do/JARVIS To-Do List.md"
+      "basename": "Gathering Team IDs and Picking Teams",
+      "path": "J.A.R.V.I.S. Project Research/Sports/NHL API/Gathering Team IDs and Picking Teams.md"
+    },
+    {
+      "basename": "MySQL script to add a new line",
+      "path": "🔍New Ideas/MySQL script to add a new line.md"
     },
     {
       "basename": "GitHub Research",
       "path": "J.A.R.V.I.S. Project Research/GitHub Research.md"
+    },
+    {
+      "basename": "How To Setup The GitHub CLI",
+      "path": "J.A.R.V.I.S. Project Research/GitHub/How To Setup The GitHub CLI.md"
+    },
+    {
+      "basename": "Settings Handler",
+      "path": "J.A.R.V.I.S. Project Research/Settings Handler/Settings Handler.md"
+    },
+    {
+      "basename": "NHL API Documentation",
+      "path": "Github Documentation/NHL API Documentation.md"
+    },
+    {
+      "basename": "JARVIS To-Do List",
+      "path": "📃Lists/📃To-Do/JARVIS To-Do List.md"
     },
     {
       "basename": "README",
@@ -31,10 +47,6 @@
     {
       "basename": "README",
       "path": "J.A.R.V.I.S. Project Research/README.md"
-    },
-    {
-      "basename": "Settings Handler",
-      "path": "J.A.R.V.I.S. Project Research/Settings Handler/Settings Handler.md"
     },
     {
       "basename": "GitHub API Documentation",
